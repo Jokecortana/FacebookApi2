@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>ClaseFacebookAPI</title>
+  <!--Comentarios de facebook sin s d y id-->
+  <div class="fb-comments" data-href="https://jokecortana.github.io/FacebookApi2/" data-numposts="20"></div>
   <link href="img/logo.png" rel='shortcut icon' type='image/png'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -40,5 +42,19 @@
 
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  
+  <!--Facebook boton me gusta-->
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0&appId=2117869355201489&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+  
+  
 </body>
+  
 </html>
